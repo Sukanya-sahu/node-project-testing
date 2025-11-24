@@ -16,5 +16,6 @@ app.use("/api", doctorRoutes);
 
 
 const PORT =  process.env.PORT || 3300;
+export default app;
 
 
