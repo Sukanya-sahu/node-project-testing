@@ -13,6 +13,7 @@ export const list = (req, res) => {
 export const view = (req, res) => {
   const { id } = req.query; 
   
+  
   // Required parameter check
   if (!id) {
     return res.status(400).json({ status: 0, message: "Doctor ID is required", error: "Missing id parameter", data: null });
