@@ -2,11 +2,11 @@
   "name": "node-poc",
   "version": "1.0.0",
   "type": "module",
-  "main": "App.js",
- "scripts": {
-  "start": "node App.js",
-  "dev": "nodemon App.js"
-},
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^17.2.3",
